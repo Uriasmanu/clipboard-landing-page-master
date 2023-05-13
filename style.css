@@ -87,3 +87,48 @@ h3{
     font-weight: 600;
 
 }
+
+@media screen and (max-width: 600px){
+    .imagem{
+        width: 10px;
+    }
+    .cabecalho {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 100px 170px 1fr;
+    }
+
+    .logo-inicio {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: 0;
+    }
+
+    .textos-inicio {
+        grid-column: 1/6;
+        grid-row: 3/3;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    h1 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .textos-inicio p {
+        padding: 6% 0%;
+    }
+
+    button {
+        height: 50px;
+        width: 312px;
+        border-radius: 25px;
+        margin-right: 2%;
+        color: white;
+        font-weight: 600;
+        margin-top: 5%;
+        font-size: 17px;
+    }
+
+}
