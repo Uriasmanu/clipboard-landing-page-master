@@ -1,10 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 header{
     background-image: url(/images/bg-header-desktop.png);
     background-size:cover;
     background-position: center;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px 1fr 1fr;
+  }
+  
+  .logo-inicio {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 25%;
+
+  }
+  
+  .logo-inicio img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.textos-inicio{
+    grid-column: 2/5;
+    grid-row: 3/3;
+    text-align: center;
+}
+
+.textos-inicio p{
+    padding: 3% 18%;
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+button{
+        height: 45px;
+        width: 178px;
+        border-radius: 25px;
+        margin-right: 2%;
+        color: white;
+        font-weight: 600;
+
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+
 }
