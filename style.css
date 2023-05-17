@@ -132,9 +132,9 @@ h3{
 }
 
 @media screen and (max-width: 600px){
-    .imagem{
-        width: 10px;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;600&display=swap');
+
+    
     .cabecalho {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -162,6 +162,57 @@ h3{
     .textos-inicio p {
         padding: 6% 0%;
     }
+
+    .primeiro {
+        grid-row: 1/1;
+        grid-column: 1/9;
+        margin-top: 35%;
+    }
+
+    .primeiro p {
+        margin: 0 12%;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        margin: 2% 5%;
+        text-align: center;
+    }
+
+
+    .elementos {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        left: 1%;
+        width: 80vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .main {
+        height: 536px;
+        width: 400px;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+    }
+
+    .textos-textos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+        width: 400px;
+        text-align: center;
+    }
+
 
     button {
         height: 50px;
