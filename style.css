@@ -56,7 +56,7 @@ h1{
 .primeiro{
     grid-row: 1/1;
     grid-column: 1/9;
-    margin-top: 6%;
+    margin-bottom: 5%;
 }
 
 .primeiro p{
@@ -65,7 +65,7 @@ h1{
 }
 
 .main{
-    margin-top: 9%;
+    margin-top: 4%;
     height: 550px;
     width: 750px;
     object-fit: contain;
@@ -101,6 +101,19 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 2% 0%;
+    margin-top: 10%;
+}
+
+.mine-texto{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30%;
+    text-align: center;
+}
+
+.access{
+    position: relative;
+    left: 25%;
 }
 
 button{
@@ -197,11 +210,12 @@ h3{
 
 
     .main {
-        height: 536px;
+        height: 370px;
         width: 400px;
         object-fit: contain;
         display: flex;
         justify-content: center;
+        margin-bottom: 15%;
     }
 
     .textos-textos {
@@ -223,6 +237,22 @@ h3{
         font-weight: 600;
         margin-top: 5%;
         font-size: 17px;
+    }
+
+    .subtitulo2{
+        margin-top: 37%;
+    }
+
+    .mine-texto {
+        display: flex;
+        justify-content: center;
+        margin: 0px 11%;
+        text-align: center;
+    }
+
+    .access{
+        position: relative;
+        left: 4%;
     }
 
 }
