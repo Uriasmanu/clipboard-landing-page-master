@@ -116,6 +116,47 @@ h2 {
     left: 25%;
 }
 
+.secao3{
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mine-texto3{
+    text-align: center;
+}
+
+.secao3 p{
+    text-align: center;
+}
+
+.subtitulo3{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0%;
+}
+
+.secao3-itens1{
+    width: 33%;
+}
+
+.primeiro-item{
+    padding: 0 15%;
+}
+
+.segundo-item{
+    padding: 0 12%;
+
+}
+
+.terceiro-item{
+    padding: 0 9%;
+
+}
+
 button{
         height: 45px;
         width: 178px;
