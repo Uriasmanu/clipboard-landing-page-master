@@ -242,7 +242,7 @@ h3{
         display: flex;
         justify-content: space-between;
         position: relative;
-        left: 1%;
+        left: 0%;
         width: 80vw;
         flex-direction: column;
         justify-content: center;
@@ -264,7 +264,7 @@ h3{
         flex-direction: column;
         justify-content: space-between;
         height: 50%;
-        width: 400px;
+        width: 380px;
         text-align: center;
     }
 
@@ -295,5 +295,46 @@ h3{
         position: relative;
         left: 4%;
     }
+
+    .subtitulo3 {
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        margin: 2% 6%;
+    }
+
+    .mine-texto3 {
+        text-align: center;
+        margin: 0 10%;
+    }
+
+    .secao3 {
+        margin-top: 7%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .secao3-itens1{
+        margin: 11% 0;
+        width: 67%;
+    }
+    
+    
+    .secao3-itens{
+        margin: 11% 0;
+    }
+
+    .primeiro-item {
+        padding: 0px 10%;
+    }
+
+    .segundo-item {
+        padding: 0 11%;
+    }
+
+
 
 }
